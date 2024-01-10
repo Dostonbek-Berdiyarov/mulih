@@ -1,0 +1,58 @@
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/rubiksemi.woff2") format("woff2"),
+    url("../fonts/rubiksemi.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppinsreg.woff2") format("woff2"),
+    url("../fonts/poppinsreg.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppinsmedium.woff2") format("woff2"),
+    url("../fonts/poppinsmedium.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppinssemi.woff2") format("woff2"),
+    url("../fonts/poppinssemi.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunnitor.woff2") format("woff2"),
+    url("../fonts/nunnitor.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunitosm.woff2") format("woff2"),
+    url("../fonts/nunitosm.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dmsansr.woff2") format("woff2"),
+    url("../fonts/dmsansr.woff") format("woff");
+}

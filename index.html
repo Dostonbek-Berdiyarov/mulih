@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mulih</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <!-- <link rel="stylesheet" href="./css/ministayles.css"> -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__wrapper flex-box">
+          <a class="logo" href="./index.html">
+            <img
+              class="site-header__img"
+              width="115"
+              height="40"
+              src="./images/icons/logo.svg"
+              alt="Mulih's logo"
+            />
+          </a>
+          <div class="site-header__right flex-box">
+            <nav class="site-header__nav">
+              <ul class="site-header__list list-unstyle flex-box">
+                <li class="site-header__items">
+                  <a
+                    class="site-header__links all-transition link-unstyle"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="site-header__items">
+                  <a
+                    class="site-header__links all-transition link-unstyle"
+                    href="#"
+                    >Property</a
+                  >
+                </li>
+                <li class="site-header__items">
+                  <a
+                    class="site-header__links all-transition link-unstyle"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="site-header__items">
+                  <a
+                    class="site-header__links all-transition link-unstyle"
+                    href="#"
+                    >Service</a
+                  >
+                </li>
+                <li class="site-header__items">
+                  <a
+                    class="site-header__links all-transition link-unstyle"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="site-header__logs flex-box">
+              <a
+                class="site-header__link more-link all-transition site-header__signin link-unstyle"
+                href="#"
+                >Sign in</a
+              >
+              <a
+                class="site-header__link more-link all-transition site-header__login link-unstyle"
+                href="#"
+                >Login</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+    <!-- main started -->
+    <main class="site-main">
+      <!-- hero section started -->
+      <section class="hero before-text">
+        <div class="container">
+          <div class="hero__info">
+            <h1 class="hero__title headding-font">
+              Let's hunt for your dream residence
+            </h1>
+            <div class="hero__text-wrapper">
+              <p class="hero__text">
+                Explore our range of beautiful properties with the addition of
+                separate accommodation suitable for you.
+              </p>
+            </div>
+          </div>
+          <form
+            class="hero__form search flex-box"
+            action="https://echo.htmlacademy.ru/courses"
+            method="get"
+            autocomplete="off"
+          >
+            <div class="search__sellects-wrapper">
+              <label class="search__label" for="location">Location</label>
+              <div class="search__select-wrapper flex-box">
+                <select
+                  class="search__select"
+                  name="home_location"
+                  aria-label="Your residence location"
+                  id="location"
+                >
+                  <option
+                    aria-label="Location Bogor Jawa Barat"
+                    value="Bogor Jawa Barat"
+                  >
+                    Bogor, Jawa Barat
+                  </option>
+                  <option aria-label="Location India Delhi" value="India Delhi">
+                    India Delhi
+                  </option>
+                  <option
+                    aria-label="Location Turkey Istanbul"
+                    value="Turkey Istanbul"
+                  >
+                    Turkey Istanbul
+                  </option>
+                  <option
+                    aria-label="Location Türkiye Ankara"
+                    value="Türkiye Ankara"
+                  >
+                    Türkiye Ankara
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="search__sellects-wrapper">
+              <label class="search__label" for="type">Type</label>
+              <div class="search__select-wrapper flex-box">
+                <select
+                  class="search__select"
+                  name="home_type"
+                  aria-label="Your residence type"
+                  id="type"
+                >
+                  <option aria-label="Type home" value="Home">Home</option>
+                  <option aria-label="Type Hotel" value="Hotel">Hotel</option>
+                  <option aria-label="Type castle" value="Castl">Castle</option>
+                  <option aria-label="Type villa" value="Villa">Villa</option>
+                </select>
+              </div>
+            </div>
+            <div class="search__sellects-wrapper">
+              <label class="search__label" for="price">Price Range</label>
+              <div class="search__select-wrapper flex-box">
+                <select
+                  class="search__select"
+                  name="home_price_range"
+                  aria-label="Your residence price range"
+                  id="price"
+                >
+                  <option
+                    aria-label="two hundred dollars-Three hundred fifty dollars"
+                    value="$200-$350"
+                  >
+                    $200-$350
+                  </option>
+                  <option
+                    aria-label="fifty dollars-hundred dollars"
+                    value="$50-$100"
+                  >
+                    $50-$100
+                  </option>
+                  <option
+                    aria-label="two milion dollars-six milion dollars"
+                    value="$2000000-$6000000"
+                  >
+                    $600-$900
+                  </option>
+                  <option
+                    aria-label="five hundred thousand dollars-a million and a half dollars"
+                    value="$500000-$1500000"
+                  >
+                    $500-$800
+                  </option>
+                </select>
+              </div>
+            </div>
+            <button class="search__btn all-transition btn" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- hero section ended -->
+      <!-- rec section started -->
+      <section class="rec before-text">
+        <div class="container">
+          <div class="rec__info flex-box">
+            <div class="rec__info-left">
+              <h2 class="rec__title headding-font">Best recomendation</h2>
+              <div class="rec__text-wrapper">
+                <p class="rec__text">
+                  Discover our exclusive selection of the finest one-of-a-kind
+                  luxury properties architectural masterpieces.
+                </p>
+              </div>
+            </div>
+            <a
+              class="rec__info-link btn-with-arrow link-unstyle all-transition flex-box"
+              href="#"
+              >Learn More</a
+            >
+          </div>
+          <ul class="rec__list list-unstyle flex-box">
+            <li class="rec__items">
+              <img
+                class="rec__img"
+                width="344"
+                height="238"
+                src="./images/griya.png"
+                alt="A big villa in sun at griya epoch"
+              />
+              <h3 class="rec__subtitle">Perum griya asri</h3>
+              <p class="rec__desc">Bogor, Jawa Barat</p>
+              <div class="rec__price flex-box">
+                <strong class="rec__bold">$25,000</strong>
+                <p class="rec__width">
+                  360m<sup class="rec__wigth-sup">2</sup>
+                  <span class="rec__width-type">Living Area</span>
+                </p>
+              </div>
+              <a
+                class="rec__link all-transition more-link link-unstyle"
+                href="#"
+                >Send Inquiry</a
+              >
+            </li>
+            <li class="rec__items">
+              <img
+                class="rec__img"
+                width="344"
+                height="238"
+                src="./images/kencana.png"
+                alt="A big villa in snow at kencana epoch"
+              />
+              <h3 class="rec__subtitle">Perum kencana asri</h3>
+              <p class="rec__desc">Bogor, Jawa Barat</p>
+              <div class="rec__price flex-box">
+                <strong class="rec__bold">$35,000</strong>
+                <p class="rec__width">
+                  360m<sup class="rec__wigth-sup">2</sup>
+                  <span class="rec__width-type">Living Area</span>
+                </p>
+              </div>
+              <a
+                class="rec__link all-transition more-link link-unstyle"
+                href="#"
+                >Send Inquiry</a
+              >
+            </li>
+            <li class="rec__items">
+              <img
+                class="rec__img"
+                width="344"
+                height="238"
+                src="./images/rakjel.png"
+                alt="A big villa in snow at rakjel epoch"
+              />
+              <h3 class="rec__subtitle">Perum rakjel elit</h3>
+              <p class="rec__desc">Bogor, Jawa Barat</p>
+              <div class="rec__price flex-box">
+                <strong class="rec__bold">$40,000</strong>
+                <p class="rec__width">
+                  360m<sup class="rec__wigth-sup">2</sup>
+                  <span class="rec__width-type">Living Area</span>
+                </p>
+              </div>
+              <a
+                class="rec__link all-transition more-link link-unstyle"
+                href="#"
+                >Send Inquiry</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- rec section ended -->
+      <!-- mind section started -->
+      <section class="mind before-text">
+        <div class="container">
+          <div class="mind__title-wrapper">
+            <h2 class="mind__title headding-font">Giving you peace of mind</h2>
+          </div>
+          <ul class="mind__list list-unstyle flex-box">
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Comfortable</h3>
+              <p class="mind__text">
+                Enjoy lifestyle amenities designed to provide every homeowners
+                modern comfort, a stone's throw away from schools, churches, and
+                hospitals.
+              </p>
+            </li>
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Extra security</h3>
+              <p class="mind__text">
+                You can connect with potential tenants without having to share
+                your phone number. We also require all users to register to
+                validate their legitimacy.
+              </p>
+            </li>
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Luxury</h3>
+              <p class="mind__text">
+                Find out how we provide the highest standard of professional
+                property management to give you all the benefits of property.
+              </p>
+            </li>
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Best price</h3>
+              <p class="mind__text">
+                Not sure what you should be charging for your property? Let us
+                do the numbers for you—contact us today for a free rental
+                appraisal on your home.
+              </p>
+            </li>
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Strategic location</h3>
+              <p class="mind__text">
+                located in the city center close to the shopping center. Very
+                good for areas surrounded by international education centers,
+                start-up office centers.
+              </p>
+            </li>
+            <li class="mind__items">
+              <h3 class="mind__subtitle">Efficient</h3>
+              <p class="mind__text">
+                Schedule visits to multiple properties at once in one day
+                without having to call them one by one. Check everything and
+                find the best properties for rent
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- mind section ended -->
+      <!-- worth section started -->
+      <section class="worth">
+        <div class="container">
+          <div class="worth__wrapper flex-box">
+            <div class="worth__img">
+              <div class="worth__grade">
+                <strong class="worth__grade-ball">4.8</strong>
+                <div class="worth__grade-stars flex-box">
+                  <img
+                    width="18"
+                    height="18"
+                    src="./images/icons/ministar.svg"
+                    alt="mini stars"
+                  />
+                  <img
+                    width="18"
+                    height="18"
+                    src="./images/icons/ministar.svg"
+                    alt="mini stars"
+                  />
+                  <img
+                    width="18"
+                    height="18"
+                    src="./images/icons/ministar.svg"
+                    alt="mini stars"
+                  />
+                  <img
+                    width="18"
+                    height="18"
+                    src="./images/icons/ministar.svg"
+                    alt="mini stars"
+                  />
+                  <img
+                    width="18"
+                    height="18"
+                    src="./images/icons/ministar.svg"
+                    alt="mini stars"
+                  />
+                </div>
+                <p class="worth__trusted">Trusted on</p>
+                <p class="worth__review">500+ Reviews</p>
+              </div>
+              <img
+                class="worth__img"
+                width="609"
+                height="475"
+                src="./images/houseinner.png"
+                alt="A big white house and all thing in this house in white color"
+              />
+              <div class="worth__sale sale flex-box">
+                <div class="sale__wrapper flex-box">
+                  <strong class="sale__bold">250+</strong>
+                  <span class="sale__info">Property Sale</span>
+                </div>
+                <div class="sale__wrapper flex-box">
+                  <strong class="sale__bold">550+</strong>
+                  <span class="sale__info">Apartmen Rent</span>
+                </div>
+              </div>
+            </div>
+            <div class="worth__info before-text">
+              <h2 class="worth__title headding-font">
+                How much is your property worth now?
+              </h2>
+              <div class="worth__text-wrapper">
+                <p class="worth__text">
+                  We have built our reputation as true local area experts. We
+                  have gained more knowledge about buyer interests, our
+                  neighborhood and the market than any other brand because we
+                  live locally and work for local people.
+                </p>
+              </div>
+              <a class="worth__link all-transition btn link-unstyle" href="#"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- worth section ended -->
+      <!-- article started -->
+      <article class="about before-text">
+        <div class="container">
+          <div class="about__top flex-box">
+            <h2 class="about__title headding-font">Peopel say about us?</h2>
+            <a
+              class="link-unstyle btn-with-arrow all-transition flex-box"
+              href="#"
+              >Learn More</a
+            >
+          </div>
+          <ul class="about__list flex-box list-unstyle">
+            <li class="about__items">
+              <div class="about__bold-quote-wrapper">
+                <blockquote class="about__bold-quote">
+                  It proved to be exactly the kind of home we wanted.
+                </blockquote>
+              </div>
+              <div class="about__quote-wrapper">
+                <blockquote class="about__quote">
+                  We wish to express our thanks for your hard work in finding us
+                  a temporary home, which proved to be exactly what we wanted.
+                </blockquote>
+              </div>
+              <div class="about__customer-wrapper flex-box">
+                <img
+                  class="about__cutomer-img"
+                  width="48"
+                  height="48"
+                  src="./images/jaydon.png"
+                  alt="customer's icon"
+                />
+                <div class="about__cite-wrapper">
+                  <cite class="about__cite">Jaydon Aminoff</cite>
+                  <p class="about__customer-info">UX Designer</p>
+                </div>
+              </div>
+            </li>
+            <li class="about__items">
+              <div class="about__bold-quote-wrapper">
+                <blockquote class="about__bold-quote">
+                  Nobody knows Portland and the peninsula better than David.
+                </blockquote>
+              </div>
+              <div class="about__quote-wrapper">
+                <blockquote class="about__quote">
+                  My wife and I had a dream of downsizing from our house in Cape
+                  Elizabeth into a small condo closer to where we work and play
+                  in Portland.
+                </blockquote>
+              </div>
+              <div class="about__customer-wrapper flex-box">
+                <img
+                  class="about__cutomer-img"
+                  width="48"
+                  height="48"
+                  src="./images/alfredo.png"
+                  alt="customer's icon"
+                />
+                <div class="about__cite-wrapper">
+                  <cite class="about__cite">Alfredo Donin</cite>
+                  <p class="about__customer-info">UI Designer</p>
+                </div>
+              </div>
+            </li>
+            <li class="about__items">
+              <div class="about__bold-quote-wrapper">
+                <blockquote class="about__bold-quote">
+                  He keeps his client’s best interests in sharp focus
+                </blockquote>
+              </div>
+              <div class="about__quote-wrapper">
+                <blockquote class="about__quote">
+                  After working with David to sell my home in 2013, I was
+                  convinced that he’s the only realtor I’ll ever need. Since
+                  then, I’ve bought two properties and sold one.
+                </blockquote>
+              </div>
+              <div class="about__customer-wrapper flex-box">
+                <img
+                  class="about__cutomer-img"
+                  width="48"
+                  height="48"
+                  src="./images/makenna.png"
+                  alt="customer's icon"
+                />
+                <div class="about__cite-wrapper">
+                  <cite class="about__cite">Makenna Korsgaard</cite>
+                  <p class="about__customer-info">UX Researcher</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!-- article ended -->
+      <!-- question section started -->
+      <section class="form">
+        <div class="container">
+          <div class="form__title-wrapper">
+            <h2 class="form__title headding-font">
+              Any questions? We are ready to answer!
+            </h2>
+          </div>
+          <div class="form__wrapper flex-box">
+            <div class="form__info">
+              <p class="form__text">
+                Let's get this conversation started. Tell us a bit about
+                yourself, and we'll get in touch as soon as we can.
+              </p>
+              <address class="form__address">
+                <ul class="form__address-list list-unstyle">
+                  <li class="form__address-items flex-box">
+                    <a
+                      class="form__address-links link-unstyle"
+                      href="tel:++24526584556"
+                      >+2(452) 658-4556</a
+                    >
+                  </li>
+                  <li class="form__address-items flex-box">
+                    <a
+                      class="form__address-links link-unstyle"
+                      href="mailto:info@Mulih@gmail.com"
+                      >info@Mulih@gmail.com</a
+                    >
+                  </li>
+                  <li class="form__address-items flex-box">
+                    <a
+                      class="form__address-links link-unstyle"
+                      target="blank"
+                      href="https://maps.app.goo.gl/goNVSqHRLRAmtHLC7"
+                      >Dubai, Nester PI, Ap 14, 565</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <form
+              class="form__form"
+              action="https://echo.htmlacademy.ru/courses"
+              method="post"
+              autocomplete="off"
+            >
+              <input
+                class="form__inputs all-transition"
+                required
+                type="text"
+                name="user_name"
+                aria-label="Enter your name, please"
+                placeholder="First name"
+              />
+              <input
+                class="form__inputs all-transition"
+                required
+                type="tel"
+                name="user_phone"
+                aria-label="Enter your phone number, please"
+                placeholder="Phone number"
+              />
+              <input
+                class="form__inputs all-transition"
+                required
+                type="email"
+                name="user_email"
+                aria-label="Enter your email address, please"
+                placeholder="Email address"
+              />
+              <textarea
+                class="form__area all-transition"
+                required
+                name="user_plan"
+                aria-label="Enter your plan, please"
+                placeholder="Discuss with us your plan"
+              ></textarea>
+              <button class="form__btn btn all-transition" type="submit">
+                Send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- question section ended -->
+    </main>
+    <!-- main ended -->
+    <!-- footer started -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__wrapper flex-box">
+          <div class="site-footer__logo-wrapper">
+            <a href="./index.html" class="logo">
+              <img
+                width="115"
+                height="40"
+                src="./images/icons/logo.svg"
+                alt="Mulih's logo"
+              />
+            </a>
+            <p class="site-footer__text">
+              We have built our reputation as true local area experts.
+            </p>
+          </div>
+          <div class="site-footer__service service">
+            <strong class="service__bold">Service</strong>
+            <ul class="service__list list-unstyle">
+              <li class="service__items">
+                <a class="service__links link-unstyle" href="#">About us</a>
+              </li>
+              <li class="service__items">
+                <a class="service__links link-unstyle" href="#">Careers</a>
+              </li>
+              <li class="service__items">
+                <a class="service__links link-unstyle" href="#"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="service__items">
+                <a class="service__links link-unstyle" href="#"
+                  >Privacy & Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="site-footer__comunity comunity">
+            <strong class="comunity__bold">Community</strong>
+            <ul class="comunity__list list-unstyle">
+              <li class="comunity__items">
+                <a class="comunity__links link-unstyle" href="#">Find agents</a>
+              </li>
+              <li class="comunity__items">
+                <a class="comunity__links link-unstyle" href="#">Lifestyle</a>
+              </li>
+              <li class="comunity__items">
+                <a class="comunity__links link-unstyle" href="#">Legal notic</a>
+              </li>
+            </ul>
+          </div>
+          <address class="site-footer__address">
+            <strong class="site-footer__address-bold">Follow us on</strong>
+            <ul class="site-footer__address-list list-unstyle flex-box">
+              <li class="site-footer__address-items">
+                <a
+                  class="site-footer__address-link all-transition link-unstyle"
+                  target="blank"
+                  href="https://instagram.com"
+                >
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 17.6787C18.7179 17.6787 17.6786 18.7181 17.6786 20.0002C17.6786 21.2823 18.7179 22.3216 20 22.3216C21.2821 22.3216 22.3215 21.2823 22.3215 20.0002C22.3215 18.7181 21.2821 17.6787 20 17.6787Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16.264 13.6298C18.7269 13.3545 21.2732 13.3545 23.7361 13.6298C25.0921 13.7813 26.1858 14.8498 26.345 16.2105C26.6394 18.7284 26.6394 21.272 26.345 23.7898C26.1858 25.1506 25.0921 26.219 23.7361 26.3705C21.2732 26.6458 18.7269 26.6458 16.264 26.3705C14.908 26.219 13.8143 25.1506 13.6551 23.7898C13.3606 21.272 13.3606 18.7284 13.6551 16.2105C13.8143 14.8498 14.908 13.7813 16.264 13.6298ZM23.5715 15.7145C23.177 15.7145 22.8572 16.0343 22.8572 16.4287C22.8572 16.8232 23.177 17.143 23.5715 17.143C23.966 17.143 24.2857 16.8232 24.2857 16.4287C24.2857 16.0343 23.966 15.7145 23.5715 15.7145ZM16.6072 20.0002C16.6072 18.1263 18.1262 16.6073 20 16.6073C21.8739 16.6073 23.3929 18.1263 23.3929 20.0002C23.3929 21.874 21.8739 23.393 20 23.393C18.1262 23.393 16.6072 21.874 16.6072 20.0002Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="site-footer__address-items">
+                <a
+                  class="site-footer__address-link all-transition link-unstyle"
+                  target="blank"
+                  href="https://youtube.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16.4206 14.922C18.8033 14.7356 21.1968 14.7356 23.5794 14.922L25.1799 15.0472C26.0714 15.117 26.8007 15.7851 26.9481 16.6671C27.3168 18.8739 27.3168 21.1266 26.9481 23.3334C26.8007 24.2153 26.0714 24.8835 25.1799 24.9532L23.5794 25.0784C21.1968 25.2648 18.8033 25.2648 16.4206 25.0784L14.8201 24.9532C13.9287 24.8835 13.1994 24.2153 13.052 23.3334C12.6833 21.1266 12.6833 18.8739 13.052 16.6671C13.1994 15.7851 13.9287 15.117 14.8201 15.0472L16.4206 14.922ZM18.5714 21.7646V18.2358C18.5714 18.0693 18.7531 17.9664 18.896 18.0521L21.8366 19.8165C21.9753 19.8997 21.9753 20.1008 21.8366 20.184L18.896 21.9484C18.7531 22.0341 18.5714 21.9312 18.5714 21.7646Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="site-footer__address-items">
+                <a
+                  class="site-footer__address-link all-transition link-unstyle"
+                  target="blank"
+                  href="https://facebook.com"
+                >
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.2857 12.8574H22.1429C21.1957 12.8574 20.2873 13.2337 19.6175 13.9035C18.9477 14.5732 18.5714 15.4816 18.5714 16.4289V18.5717H16.4286V21.4289H18.5714V27.1431H21.4286V21.4289H23.5714L24.2857 18.5717H21.4286V16.4289C21.4286 16.2394 21.5038 16.0577 21.6378 15.9238C21.7718 15.7898 21.9534 15.7146 22.1429 15.7146H24.2857V12.8574Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ended -->
+  </body>
+</html>
